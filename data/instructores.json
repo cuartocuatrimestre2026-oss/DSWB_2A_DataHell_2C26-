@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mariana",
+    "apellido": "Facchinetti",
+    "especialidad": "Pilates Reformer",
+    "email": "mariana.pilates@espaciosideral.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Debora",
+    "apellido": "Ciezar",
+    "especialidad": "Hatha Yoga",
+    "email": "debora.yoga@espaciosideral.com"
+  }
+]

@@ -1,0 +1,33 @@
+extends layouts/main
+
+block contenido
+  .encabezado-seccion
+    h2 Padrón General de Clientes / Socios
+    p Socios registrados en la base local con autorización para agendar turnos y sobreturnos en Espacio Sideral S.A.S.
+
+  table.tabla-turnos
+    thead
+      tr
+        th ID Cliente
+        th Apellido y Nombre
+        th DNI
+        th Correo Electrónico
+        th Teléfono de Contacto
+    tbody
+      if clientes.length
+        each c in clientes
+          tr
+            td
+              code= c.id
+            td
+              strong= `${c.apellido}, ${c.nombre}`
+            td= c.dni
+            td= c.email
+            td= c.telefono || 'Sin teléfono'
+      else
+        tr
+          td(colspan="5") No se registran clientes en el padrón local.
+
+  .acciones-retorno
+    a.btn-volver(href="/") &larr; Volver al Inicio
+    a.btn-volver(href="/vista/turnos") Ir a la Grilla de Turnos &rarr;

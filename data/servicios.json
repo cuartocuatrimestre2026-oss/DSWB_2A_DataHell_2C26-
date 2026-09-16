@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pilates Reformer",
+    "modalidad": "GRUPAL",
+    "duracionMinutos": 60,
+    "salaRequerida": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Hatha Yoga",
+    "modalidad": "GRUPAL",
+    "duracionMinutos": 60,
+    "salaRequerida": 3
+  },
+  {
+    "id": 3,
+    "nombre": "Entrenamiento Funcional",
+    "modalidad": "GRUPAL",
+    "duracionMinutos": 60,
+    "salaRequerida": 2
+  },
+  {
+    "id": 4,
+    "nombre": "Registros Akáshicos",
+    "modalidad": "INDIVIDUAL",
+    "duracionMinutos": 60,
+    "salaRequerida": 4
+  }
+]

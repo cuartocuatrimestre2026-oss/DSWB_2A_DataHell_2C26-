@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sebastian",
+    "apellido": "Tapia",
+    "dni": "30123456",
+    "email": "seba.tapia@gmail.com",
+    "telefono": "11-4567-8901"
+  },
+  {
+    "id": 2,
+    "nombre": "Maria",
+    "apellido": "Arias",
+    "dni": "32987654",
+    "email": "maria.arias@gmail.com",
+    "telefono": "11-5678-1234"
+  }
+]

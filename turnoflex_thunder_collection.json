@@ -1,0 +1,202 @@
+{
+  "clientName": "Thunder Client",
+  "collectionName": "TurnoFlex API - TP1 Backend Grupo 9",
+  "collectionId": "turnoflex-tp1-backend",
+  "dateExported": "2026-09-16",
+  "version": "1.2",
+  "folders": [
+    {
+      "_id": "folder-vistas",
+      "name": "1. Vistas Pug (Consola de Recepción)",
+      "containerId": ""
+    },
+    {
+      "_id": "folder-entidades",
+      "name": "2. Catálogos y Entidades Base",
+      "containerId": ""
+    },
+    {
+      "_id": "folder-core",
+      "name": "3. Casos de Negocio Principales (Documentación)",
+      "containerId": ""
+    },
+    {
+      "_id": "folder-poo",
+      "name": "4. Ciclo de Vida y POO",
+      "containerId": ""
+    }
+  ],
+  "requests": [
+    {
+      "_id": "req-01-home",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-vistas",
+      "name": "Test 1: Vista Home / Dashboard Pug (GET /)",
+      "url": "http://localhost:3000/",
+      "method": "GET",
+      "headers": []
+    },
+    {
+      "_id": "req-02-vista-clientes",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-vistas",
+      "name": "Test 2: Vista Padrón de Socios Pug (GET /vista/clientes)",
+      "url": "http://localhost:3000/vista/clientes",
+      "method": "GET",
+      "headers": []
+    },
+    {
+      "_id": "req-03-vista-turnos",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-vistas",
+      "name": "Test 3: Vista Grilla Operativa Pug (GET /vista/turnos)",
+      "url": "http://localhost:3000/vista/turnos",
+      "method": "GET",
+      "headers": []
+    },
+    {
+      "_id": "req-04-salas",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-entidades",
+      "name": "Test 4: Listar Salas y Aforos (GET /salas)",
+      "url": "http://localhost:3000/salas",
+      "method": "GET",
+      "headers": []
+    },
+    {
+      "_id": "req-05-servicios",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-entidades",
+      "name": "Test 5: Listar Servicios / Disciplinas (GET /servicios)",
+      "url": "http://localhost:3000/servicios",
+      "method": "GET",
+      "headers": []
+    },
+    {
+      "_id": "req-06-instructores",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-entidades",
+      "name": "Test 6: Listar Instructores Docentes (GET /instructores)",
+      "url": "http://localhost:3000/instructores",
+      "method": "GET",
+      "headers": []
+    },
+    {
+      "_id": "req-07-clientes",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-entidades",
+      "name": "Test 7: Listar Socios / Clientes (GET /clientes)",
+      "url": "http://localhost:3000/clientes",
+      "method": "GET",
+      "headers": []
+    },
+    {
+      "_id": "req-08-caso-1",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-core",
+      "name": "Test 8 (Caso 1): Alta Exitosa de Turno Regular (POST /turnos)",
+      "url": "http://localhost:3000/turnos",
+      "method": "POST",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"clienteId\": 1,\n  \"servicioId\": 1,\n  \"instructorId\": 1,\n  \"salaId\": 1,\n  \"fechaHora\": \"2026-09-20T18:00:00.000Z\"\n}"
+      }
+    },
+    {
+      "_id": "req-09-caso-2",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-core",
+      "name": "Test 9 (Caso 2): Rechazo por Superposición Horaria (POST /turnos)",
+      "url": "http://localhost:3000/turnos",
+      "method": "POST",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"clienteId\": 2,\n  \"servicioId\": 1,\n  \"instructorId\": 1,\n  \"salaId\": 1,\n  \"fechaHora\": \"2026-09-20T18:00:00.000Z\"\n}"
+      }
+    },
+    {
+      "_id": "req-10-caso-3",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-core",
+      "name": "Test 10 (Caso 3): Consulta Filtrada por Cliente (GET /turnos/cliente/1)",
+      "url": "http://localhost:3000/turnos/cliente/1",
+      "method": "GET",
+      "headers": []
+    },
+    {
+      "_id": "req-11-caso-4",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-core",
+      "name": "Test 11 (Caso 4): Alta Exitosa de Sobreturno (POST /turnos/sobreturno)",
+      "url": "http://localhost:3000/turnos/sobreturno",
+      "method": "POST",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"clienteId\": 2,\n  \"servicioId\": 1,\n  \"instructorId\": 2,\n  \"salaId\": 1,\n  \"fechaHora\": \"2026-09-20T18:00:00.000Z\",\n  \"motivo\": \"Recuperación de sesión médica indicada por traumatología\"\n}"
+      }
+    },
+    {
+      "_id": "req-12-caso-5",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-core",
+      "name": "Test 12 (Caso 5): Rechazo de Sobreturno Sin Motivo (POST /turnos/sobreturno)",
+      "url": "http://localhost:3000/turnos/sobreturno",
+      "method": "POST",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"clienteId\": 2,\n  \"servicioId\": 1,\n  \"instructorId\": 2,\n  \"salaId\": 1,\n  \"fechaHora\": \"2026-09-20T18:00:00.000Z\",\n  \"motivo\": \"\"\n}"
+      }
+    },
+    {
+      "_id": "req-13-put-estado",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-poo",
+      "name": "Test 13: Transición a Atendido vía POO (PUT /turnos/1)",
+      "url": "http://localhost:3000/turnos/1",
+      "method": "PUT",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"estado\": \"atendido\"\n}"
+      }
+    },
+    {
+      "_id": "req-14-delete-turno",
+      "colId": "turnoflex-tp1-backend",
+      "containerId": "folder-poo",
+      "name": "Test 14: Cancelación de Turno vía POO (DELETE /turnos/2)",
+      "url": "http://localhost:3000/turnos/2",
+      "method": "DELETE",
+      "headers": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+extends layouts/main
+
+block contenido
+  h2 Grilla Operativa de Turnos del Día
+  table.tabla-turnos
+    thead
+      tr
+        th ID Turno
+        th ID Cliente
+        th ID Sala
+        th Fecha y Hora
+        th Estado
+        th Modalidad
+        th Motivo
+    tbody
+      if turnos.length
+        each t in turnos
+          tr(class=t.esSobreturno ? 'fila-sobreturno' : '')
+            td= t.id
+            td= t.clienteId
+            td= t.salaId
+            td= t.fechaHora
+            td= t.estado
+            td= t.esSobreturno ? 'SOBRETURNO' : 'REGULAR'
+            td= t.motivoSobreturno || '-'
+      else
+        tr
+          td(colspan="7") No se registran turnos en la base local.

@@ -1,0 +1,60 @@
+extends layouts/main
+
+block contenido
+  .hero-card
+    h2 Consola de Gestión Interna - Espacio Sideral S.A.S.
+    p.subtitulo Sistema de administración de turnos, capacidad de salas y control de sobrecupos para el personal de recepción.
+
+  .metricas-grid
+    .tarjeta-metrica
+      h3 Turnos Registrados
+      p.numero-metrica= totalTurnos
+      a.btn-link(href="/vista/turnos") Ver Grilla Operativa &rarr;
+    .tarjeta-metrica
+      h3 Socios Registrados
+      p.numero-metrica= totalClientes
+      a.btn-link(href="/vista/clientes") Ver Padrón &rarr;
+    .tarjeta-metrica
+      h3 Salas Activas
+      p.numero-metrica= totalSalas
+      span.etiqueta-info Aforo monitoreado
+    .tarjeta-metrica
+      h3 Disciplinas Ofertadas
+      p.numero-metrica= totalServicios
+      span.etiqueta-info Catálogo oficial
+
+  .info-bloques
+    .bloque-destacado
+      h3 📌 Reglas de Negocio Aplicadas
+      ul
+        li 
+          strong Aforo estricto por sala: 
+          span Verificación automática de vacantes regulares para evitar aglomeraciones en actividades como Pilates Reformer (tope: 10 camillas).
+        li 
+          strong Prevención de colisiones de agenda: 
+          span Bloqueo automático ante superposiciones horarias de instructores o reservas duplicadas de un mismo socio.
+        li 
+          strong Sobreturnos controlados (hasta 15%): 
+          span Exclusivos para la recepción ante urgencias justificadas con motivo obligatorio.
+        li 
+          strong Persistencia desacoplada: 
+          span Almacenamiento directo en archivos planos JSON mediante arquitectura orientada a objetos (POO).
+
+    .bloque-destacado
+      h3 🚀 Accesos Rápidos a la API REST
+      ul
+        li
+          code GET /turnos
+          span  - Listado general de reservas en formato JSON.
+        li
+          code GET /clientes
+          span  - Padrón completo de socios en formato JSON.
+        li
+          code GET /salas
+          span  - Infraestructura edilicia y cálculo dinámico de sobreturnos.
+        li
+          code GET /servicios
+          span  - Catálogo de disciplinas (grupales e individuales).
+        li
+          code GET /instructores
+          span  - Plantel docente y especialidades.

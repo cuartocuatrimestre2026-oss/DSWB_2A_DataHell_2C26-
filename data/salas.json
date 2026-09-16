@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombre": "Salón Pilates Reformer",
+    "capacidadNormal": 10
+  },
+  {
+    "id": 2,
+    "nombre": "Salón Cardio / Funcional",
+    "capacidadNormal": 20
+  },
+  {
+    "id": 3,
+    "nombre": "SUM 1 (Yoga / Stretching)",
+    "capacidadNormal": 15
+  },
+  {
+    "id": 4,
+    "nombre": "Gabinete 1 (Terapias Individuales)",
+    "capacidadNormal": 1
+  }
+]
