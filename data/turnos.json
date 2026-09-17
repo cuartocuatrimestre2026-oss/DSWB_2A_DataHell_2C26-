@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 []
+=======
+[
+  {
+    "id": 1,
+    "clienteId": 1,
+    "servicioId": 1,
+    "instructorId": 1,
+    "salaId": 1,
+    "fechaHora": "2026-09-20T21:00:00.000Z",
+    "estado": "reservado",
+    "esSobreturno": false,
+    "motivoSobreturno": null
+  }
+]
+>>>>>>> 00a8ecb (correccion Readme)

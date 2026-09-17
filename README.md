@@ -1,7 +1,7 @@
 ﻿# TurnoFlex - Sistema de Gestión de Turnos y Aforos
 > **API RESTful y Consola Interna para Espacio Sideral S.A.S.**  
 > **Trabajo Práctico N° 1 - Desarrollo Web Backend (IFTS N° 29 - 2C2026 - Comisión 2° A)**  
-> **Empresa de Desarrollo: DataHell (Grupo 9)**
+> **Empresa de Desarrollo: DataHell (Grupo 16)**
 
 
 ## Integrantes y Responsabilidades

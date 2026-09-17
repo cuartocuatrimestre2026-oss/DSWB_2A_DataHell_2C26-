@@ -8,7 +8,17 @@
     "dev": "nodemon app.js",
     "test": "node test_api.js"
   },
+<<<<<<< HEAD
   "keywords": ["express", "nodejs", "json", "mvc", "pug"],
+=======
+  "keywords": [
+    "express",
+    "nodejs",
+    "json",
+    "mvc",
+    "pug"
+  ],
+>>>>>>> 00a8ecb (correccion Readme)
   "author": "Grupo 9 - DataHell",
   "license": "ISC",
   "type": "commonjs",
