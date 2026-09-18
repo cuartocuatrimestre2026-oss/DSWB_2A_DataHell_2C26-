@@ -1,17 +1,32 @@
-<<<<<<< HEAD
-[]
-=======
 [
-  {
-    "id": 1,
-    "clienteId": 1,
-    "servicioId": 1,
-    "instructorId": 1,
-    "salaId": 1,
-    "fechaHora": "2026-09-20T21:00:00.000Z",
-    "estado": "reservado",
-    "esSobreturno": false,
-    "motivoSobreturno": null
-  }
+  { "id": 1, "clienteId": 1, "servicioId": 1, "instructorId": 1, "salaId": 1, "fechaHora": "2026-03-20T09:00:00.000Z", "estado": "atendido", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 2, "clienteId": 2, "servicioId": 1, "instructorId": 1, "salaId": 1, "fechaHora": "2026-03-20T10:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 3, "clienteId": 3, "servicioId": 2, "instructorId": 3, "salaId": 3, "fechaHora": "2026-03-20T11:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 4, "clienteId": 4, "servicioId": 3, "instructorId": 5, "salaId": 2, "fechaHora": "2026-03-20T14:00:00.000Z", "estado": "reservado", "esSobreturno": true, "motivoSobreturno": "Urgencia médica" },
+  { "id": 5, "clienteId": 5, "servicioId": 4, "instructorId": 7, "salaId": 4, "fechaHora": "2026-03-20T15:00:00.000Z", "estado": "cancelado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 6, "clienteId": 6, "servicioId": 1, "instructorId": 2, "salaId": 1, "fechaHora": "2026-03-21T09:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 7, "clienteId": 7, "servicioId": 2, "instructorId": 4, "salaId": 3, "fechaHora": "2026-03-21T10:00:00.000Z", "estado": "atendido", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 8, "clienteId": 8, "servicioId": 3, "instructorId": 6, "salaId": 2, "fechaHora": "2026-03-21T11:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 9, "clienteId": 9, "servicioId": 4, "instructorId": 8, "salaId": 4, "fechaHora": "2026-03-21T16:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 10, "clienteId": 10, "servicioId": 1, "instructorId": 1, "salaId": 1, "fechaHora": "2026-03-22T08:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 11, "clienteId": 11, "servicioId": 2, "instructorId": 3, "salaId": 3, "fechaHora": "2026-03-22T09:00:00.000Z", "estado": "atendido", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 12, "clienteId": 12, "servicioId": 3, "instructorId": 5, "salaId": 2, "fechaHora": "2026-03-22T10:00:00.000Z", "estado": "cancelado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 13, "clienteId": 13, "servicioId": 4, "instructorId": 7, "salaId": 4, "fechaHora": "2026-03-22T11:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 14, "clienteId": 14, "servicioId": 1, "instructorId": 2, "salaId": 1, "fechaHora": "2026-03-23T14:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 15, "clienteId": 15, "servicioId": 2, "instructorId": 4, "salaId": 3, "fechaHora": "2026-03-23T15:00:00.000Z", "estado": "reservado", "esSobreturno": true, "motivoSobreturno": "Recuperación de clase" },
+  { "id": 16, "clienteId": 16, "servicioId": 3, "instructorId": 6, "salaId": 2, "fechaHora": "2026-03-23T16:00:00.000Z", "estado": "atendido", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 17, "clienteId": 17, "servicioId": 4, "instructorId": 8, "salaId": 4, "fechaHora": "2026-03-23T17:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 18, "clienteId": 18, "servicioId": 1, "instructorId": 1, "salaId": 1, "fechaHora": "2026-03-24T09:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 19, "clienteId": 19, "servicioId": 2, "instructorId": 3, "salaId": 3, "fechaHora": "2026-03-24T10:00:00.000Z", "estado": "cancelado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 20, "clienteId": 20, "servicioId": 3, "instructorId": 5, "salaId": 2, "fechaHora": "2026-03-24T11:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 21, "clienteId": 21, "servicioId": 4, "instructorId": 7, "salaId": 4, "fechaHora": "2026-03-24T14:00:00.000Z", "estado": "atendido", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 22, "clienteId": 22, "servicioId": 1, "instructorId": 2, "salaId": 1, "fechaHora": "2026-03-25T08:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 23, "clienteId": 23, "servicioId": 2, "instructorId": 4, "salaId": 3, "fechaHora": "2026-03-25T09:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 24, "clienteId": 24, "servicioId": 3, "instructorId": 6, "salaId": 2, "fechaHora": "2026-03-25T10:00:00.000Z", "estado": "atendido", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 25, "clienteId": 25, "servicioId": 4, "instructorId": 8, "salaId": 4, "fechaHora": "2026-03-25T11:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 26, "clienteId": 26, "servicioId": 1, "instructorId": 1, "salaId": 1, "fechaHora": "2026-03-26T15:00:00.000Z", "estado": "reservado", "esSobreturno": true, "motivoSobreturno": "Excepción de cupo" },
+  { "id": 27, "clienteId": 27, "servicioId": 2, "instructorId": 3, "salaId": 3, "fechaHora": "2026-03-26T16:00:00.000Z", "estado": "cancelado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 28, "clienteId": 28, "servicioId": 3, "instructorId": 5, "salaId": 2, "fechaHora": "2026-03-26T17:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 29, "clienteId": 29, "servicioId": 4, "instructorId": 7, "salaId": 4, "fechaHora": "2026-03-27T10:00:00.000Z", "estado": "reservado", "esSobreturno": false, "motivoSobreturno": null },
+  { "id": 30, "clienteId": 30, "servicioId": 1, "instructorId": 2, "salaId": 1, "fechaHora": "2026-03-27T11:00:00.000Z", "estado": "atendido", "esSobreturno": false, "motivoSobreturno": null }
 ]
->>>>>>> 00a8ecb (correccion Readme)

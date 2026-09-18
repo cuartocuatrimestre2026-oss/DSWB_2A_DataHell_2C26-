@@ -12,5 +12,61 @@
     "apellido": "Ciezar",
     "especialidad": "Hatha Yoga",
     "email": "debora.yoga@espaciosideral.com"
+  },
+  {
+    "id": 3,
+    "nombre": "Lucas",
+    "apellido": "González",
+    "especialidad": "Pilates Reformer",
+    "email": "lucas.gonzalez@gym.com"
+  },
+  {
+    "id": 4,
+    "nombre": "Sofía",
+    "apellido": "Martínez",
+    "especialidad": "Pilates Reformer",
+    "email": "sofia.martinez@gym.com"
+  },
+  {
+    "id": 5,
+    "nombre": "Mateo",
+    "apellido": "Benítez",
+    "especialidad": "Hatha Yoga",
+    "email": "mateo.benitez@gym.com"
+  },
+  {
+    "id": 6,
+    "nombre": "Camila",
+    "apellido": "Rodríguez",
+    "especialidad": "Hatha Yoga",
+    "email": "camila.rodriguez@gym.com"
+  },
+  {
+    "id": 7,
+    "nombre": "Joaquín",
+    "apellido": "López",
+    "especialidad": "Entrenamiento Funcional",
+    "email": "joaquin.lopez@gym.com"
+  },
+  {
+    "id": 8,
+    "nombre": "Valentina",
+    "apellido": "Díaz",
+    "especialidad": "Entrenamiento Funcional",
+    "email": "valentina.diaz@gym.com"
+  },
+  {
+    "id": 9,
+    "nombre": "Gabriel",
+    "apellido": "Pérez",
+    "especialidad": "Registros Akáshicos",
+    "email": "gabriel.perez@gym.com"
+  },
+  {
+    "id": 10,
+    "nombre": "Martina",
+    "apellido": "Gómez",
+    "especialidad": "Registros Akáshicos",
+    "email": "martina.gomez@gym.com"
   }
 ]

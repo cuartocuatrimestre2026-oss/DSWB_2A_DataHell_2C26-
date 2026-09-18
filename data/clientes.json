@@ -1,6 +1,246 @@
 [
   {
     "id": 1,
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "dni": "38123456",
+    "email": "juan.perez@mail.com",
+    "telefono": "1145678901"
+  },
+  {
+    "id": 2,
+    "nombre": "María",
+    "apellido": "Gómez",
+    "dni": "39234567",
+    "email": "maria.gomez@mail.com",
+    "telefono": "1145678902"
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos",
+    "apellido": "Rodríguez",
+    "dni": "37345678",
+    "email": "carlos.rodriguez@mail.com",
+    "telefono": "1145678903"
+  },
+  {
+    "id": 4,
+    "nombre": "Ana",
+    "apellido": "Fernández",
+    "dni": "40456789",
+    "email": "ana.fernandez@mail.com",
+    "telefono": "1145678904"
+  },
+  {
+    "id": 5,
+    "nombre": "Luis",
+    "apellido": "López",
+    "dni": "36567890",
+    "email": "luis.lopez@mail.com",
+    "telefono": "1145678905"
+  },
+  {
+    "id": 6,
+    "nombre": "Laura",
+    "apellido": "Díaz",
+    "dni": "41678901",
+    "email": "laura.diaz@mail.com",
+    "telefono": "1145678906"
+  },
+  {
+    "id": 7,
+    "nombre": "Diego",
+    "apellido": "Martínez",
+    "dni": "38789012",
+    "email": "diego.martinez@mail.com",
+    "telefono": "1145678907"
+  },
+  {
+    "id": 8,
+    "nombre": "Lucía",
+    "apellido": "Álvarez",
+    "dni": "39890123",
+    "email": "lucia.alvarez@mail.com",
+    "telefono": "1145678908"
+  },
+  {
+    "id": 9,
+    "nombre": "Martín",
+    "apellido": "Romero",
+    "dni": "37901234",
+    "email": "martin.romero@mail.com",
+    "telefono": "1145678909"
+  },
+  {
+    "id": 10,
+    "nombre": "Sonia",
+    "apellido": "Sosa",
+    "dni": "40012345",
+    "email": "sonia.sosa@mail.com",
+    "telefono": "1145678910"
+  },
+  {
+    "id": 11,
+    "nombre": "Javier",
+    "apellido": "Torres",
+    "dni": "36123456",
+    "email": "javier.torres@mail.com",
+    "telefono": "1145678911"
+  },
+  {
+    "id": 12,
+    "nombre": "Elena",
+    "apellido": "Ruiz",
+    "dni": "41234567",
+    "email": "elena.ruiz@mail.com",
+    "telefono": "1145678912"
+  },
+  {
+    "id": 13,
+    "nombre": "Pablo",
+    "apellido": "Benítez",
+    "dni": "38345678",
+    "email": "pablo.benitez@mail.com",
+    "telefono": "1145678913"
+  },
+  {
+    "id": 14,
+    "nombre": "Sofia",
+    "apellido": "Castro",
+    "dni": "39456789",
+    "email": "sofia.castro@mail.com",
+    "telefono": "1145678914"
+  },
+  {
+    "id": 15,
+    "nombre": "Gonzalo",
+    "apellido": "Sánchez",
+    "dni": "37567890",
+    "email": "gonzalo.sanchez@mail.com",
+    "telefono": "1145678915"
+  },
+  {
+    "id": 16,
+    "nombre": "Valentina",
+    "apellido": "Acosta",
+    "dni": "40678901",
+    "email": "valentina.acosta@mail.com",
+    "telefono": "1145678916"
+  },
+  {
+    "id": 17,
+    "nombre": "Nicolas",
+    "apellido": "Silva",
+    "dni": "36789012",
+    "email": "nicolas.silva@mail.com",
+    "telefono": "1145678917"
+  },
+  {
+    "id": 18,
+    "nombre": "Camila",
+    "apellido": "Rojas",
+    "dni": "41890123",
+    "email": "camila.rojas@mail.com",
+    "telefono": "1145678918"
+  },
+  {
+    "id": 19,
+    "nombre": "Agustín",
+    "apellido": "Mendoza",
+    "dni": "38901234",
+    "email": "agustin.mendoza@mail.com",
+    "telefono": "1145678919"
+  },
+  {
+    "id": 20,
+    "nombre": "Mariana",
+    "apellido": "Molina",
+    "dni": "39012345",
+    "email": "mariana.molina@mail.com",
+    "telefono": "1145678920"
+  },
+  {
+    "id": 21,
+    "nombre": "Tomas",
+    "apellido": "Ortiz",
+    "dni": "37123456",
+    "email": "tomas.ortiz@mail.com",
+    "telefono": "1145678921"
+  },
+  {
+    "id": 22,
+    "nombre": "Paula",
+    "apellido": "Luna",
+    "dni": "40234567",
+    "email": "paula.luna@mail.com",
+    "telefono": "1145678922"
+  },
+  {
+    "id": 23,
+    "nombre": "Franco",
+    "apellido": "Juárez",
+    "dni": "36345678",
+    "email": "franco.juarez@mail.com",
+    "telefono": "1145678923"
+  },
+  {
+    "id": 24,
+    "nombre": "Florencia",
+    "apellido": "Cabrera",
+    "dni": "41456789",
+    "email": "florencia.cabrera@mail.com",
+    "telefono": "1145678924"
+  },
+  {
+    "id": 25,
+    "nombre": "Ramiro",
+    "apellido": "Ríos",
+    "dni": "38567890",
+    "email": "ramiro.rios@mail.com",
+    "telefono": "1145678925"
+  },
+  {
+    "id": 26,
+    "nombre": "Micaela",
+    "apellido": "Morales",
+    "dni": "39678901",
+    "email": "micaela.morales@mail.com",
+    "telefono": "1145678926"
+  },
+  {
+    "id": 27,
+    "nombre": "Joaquín",
+    "apellido": "Godoy",
+    "dni": "37789012",
+    "email": "joaquin.godoy@mail.com",
+    "telefono": "1145678927"
+  },
+  {
+    "id": 28,
+    "nombre": "Victoria",
+    "apellido": "Ferreyra",
+    "dni": "40890123",
+    "email": "victoria.ferreyra@mail.com",
+    "telefono": "1145678928"
+  },
+  {
+    "id": 29,
+    "nombre": "Facundo",
+    "apellido": "Vargas",
+    "dni": "36901234",
+    "email": "facundo.vargas@mail.com",
+    "telefono": "1145678929"
+  },
+  {
+    "id": 30,
+    "nombre": "Belen",
+    "apellido": "Arias",
+    "dni": "41012345",
+    "email": "belen.arias@mail.com",
+    "telefono": "1145678930"
+  },
+  {
+    "id": 31,
     "nombre": "Sebastian",
     "apellido": "Tapia",
     "dni": "30123456",
@@ -8,11 +248,35 @@
     "telefono": "11-4567-8901"
   },
   {
-    "id": 2,
+    "id": 32,
     "nombre": "Maria",
     "apellido": "Arias",
     "dni": "32987654",
     "email": "maria.arias@gmail.com",
     "telefono": "11-5678-1234"
+  },
+  {
+    "id": 33,
+    "nombre": "María",
+    "apellido": "Messi",
+    "dni": "39654321",
+    "email": "maria.messi@mail.com",
+    "telefono": "1145678159"
+  },
+  {
+    "id": 34,
+    "nombre": "María",
+    "apellido": "Messi",
+    "dni": "39654321",
+    "email": "maria.messi@mail.com",
+    "telefono": "1145678159"
+  },
+  {
+    "id": 35,
+    "nombre": "Susana",
+    "apellido": "Messi",
+    "dni": "39654456",
+    "email": "susana.messi@mail.com",
+    "telefono": "1145753861"
   }
 ]
